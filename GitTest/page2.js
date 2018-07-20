@@ -6,11 +6,11 @@ function getValue(parm){
     var b = a.split("&");
     var returnValue = "";
 
-    b.forEach(el => {
-        if (el.indexOf(parm) > -1 ){
-            returnValue = el.split("=")[1];
-        }      
-    });    
+    // b.forEach(el => {
+    //     if (el.indexOf(parm) > -1 ){
+    //         returnValue = el.split("=")[1];
+    //     }      
+    // });    
     
     for (let el of b){
         if (el.indexOf(parm) > -1 ){
